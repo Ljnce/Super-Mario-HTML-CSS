@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main */
+.container-all {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+/* Single container */
+.container {
+    height: 35px;
+    width: 70px;
+    border: 0.8px solid #000000;
+    display: flex;
+    flex-direction: row;
+}
